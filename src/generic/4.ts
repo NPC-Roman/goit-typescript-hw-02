@@ -12,7 +12,6 @@ class Page extends Component {
 }
 export {};
 */
-
 interface ComponentProps {
   title: string;
 }
@@ -26,5 +25,4 @@ class Page extends Component<ComponentProps> {
     console.log(this.props.title);
   }
 }
-
 /*---DONE---*/
